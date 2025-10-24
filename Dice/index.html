@@ -6,16 +6,6 @@
     <title>Unity WebGL Player | My project</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NPSC8E5KLM"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-NPSC8E5KLM');
-</script>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -67,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/game-prototype.loader.js";
+      var loaderUrl = buildUrl + "/Dice.loader.js";
       var config = {
-        dataUrl: buildUrl + "/game-prototype.data",
-        frameworkUrl: buildUrl + "/game-prototype.framework.js",
-        codeUrl: buildUrl + "/game-prototype.wasm",
+        dataUrl: buildUrl + "/Dice.data",
+        frameworkUrl: buildUrl + "/Dice.framework.js",
+        codeUrl: buildUrl + "/Dice.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "My project",
